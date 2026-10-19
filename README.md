@@ -12,7 +12,6 @@ This repository provides the official implementation of the algorithms presented
 
 > **Note:** The initial arXiv preprint ([arXiv:2606.26482v1](https://arxiv.org/abs/2606.26482)) contains various typographical errors. Please refer to future revised versions.
 
----
 
 ## Data Preparation
 
@@ -20,7 +19,6 @@ All dataset files should be downloaded and placed under the `data/` directory.
 
 - **VisDA Benchmark**: The extracted features for VisDA can be accessed via the Google Drive link provided in [`eddardd/gmm-otda`](https://github.com/eddardd/gmm-otda).
 
----
 
 ## Quick Start
 
@@ -33,7 +31,6 @@ nohup python3 run.py > run.log 2>&1 &
 
 To run other experimental settings, modify the command-line arguments accordingly (e.g., `--features="resnet101"`).
 
----
 
 ## Acknowledgments & Attribution
 
@@ -42,7 +39,6 @@ This project is built upon and adapted from the open-source implementation:
 
 We gratefully acknowledge the original authors for their open-source contributions.
 
----
 
 ## Citation
 
