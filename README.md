@@ -1,4 +1,3 @@
-
 # OTDA-LSMM
 
 [![arXiv](https://img.shields.io/badge/arXiv-2606.26482-b31b1b.svg)](https://arxiv.org/abs/2606.26482)
@@ -10,7 +9,7 @@ This repository provides the official implementation of the algorithms presented
 > Songyan Luo and Yunxin Zhang  
 > *arXiv preprint [arXiv:2606.26482](https://arxiv.org/abs/2606.26482) (2026).*
 
-> **Note:** The initial arXiv preprint ([arXiv:2606.26482v1](https://arxiv.org/abs/2606.26482)) contains various typographical errors. Please refer to future revised versions.
+> **Note:** The initial arXiv preprint ([arXiv:2606.26482v1](https://arxiv.org/abs/2606.26482)) contains typographical errors. Please refer to subsequent revisions.
 
 
 ## Data Preparation
@@ -29,7 +28,7 @@ export PYTHONHASHSEED=42
 nohup python3 run.py > run.log 2>&1 &
 ```
 
-To run other experimental settings, modify the command-line arguments accordingly (e.g., `--features="resnet101"`).
+To run experiments with other settings, modify the command-line arguments accordingly (e.g., `--features="resnet101"`).
 
 
 ## Acknowledgments & Attribution
@@ -37,7 +36,7 @@ To run other experimental settings, modify the command-line arguments accordingl
 This project is built upon and adapted from the open-source implementation:
 - [**gmm-otda**](https://github.com/eddardd/gmm-otda): *Optimal Transport for Domain Adaptation through Gaussian Mixture Models* (TMLR 2025), along with its references.
 
-We gratefully acknowledge the original authors for their open-source contributions.
+We gratefully acknowledge the open-source contributions of the original authors.
 
 
 ## Citation
