@@ -45,10 +45,13 @@ We gratefully acknowledge the original authors for their open-source contributio
 If you find this codebase useful, please cite:
 
 ```bibtex
-@article{luo2026minkowski,
-  title   = {Minkowski-Type Wasserstein Metrics and Barycenters for Location-Scale Mixtures with Application to Domain Adaptation},
-  author  = {Luo, Songyan and Zhang, Yunxin},
-  journal = {arXiv preprint arXiv:2606.26482},
-  year    = {2026}
+@article{luo2026minkowskitypewassersteinmetricsbarycenters,
+      title={Minkowski-Type Wasserstein Metrics and Barycenters for Location-Scale Mixtures with Application to Domain Adaptation}, 
+      author={Songyan Luo and Yunxin Zhang},
+      year={2026},
+      eprint={2606.26482},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+      url={https://arxiv.org/abs/2606.26482}, 
 }
 ```
